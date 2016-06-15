@@ -65,8 +65,10 @@
                         <fieldset data-uk-margin>
                             应用类型：
                             <select>
+                                
                                 <option>通用</option>
-                                <option>电子商务</option>
+                                <option>通用</option>
+                                <option>通用</option>
                             </select>
                             <input type="text" placeholder="输入表名">
                             <button class="uk-button"><i class="uk-icon-search"></i></button>
@@ -112,6 +114,7 @@
                                 </tr>
                             </thead>
                             <tbody>
+                            
                                 <tr>
                                     <td><input type="checkbox"></td>
                                     <td>id</td>
