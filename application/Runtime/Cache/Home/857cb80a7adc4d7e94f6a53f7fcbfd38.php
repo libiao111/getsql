@@ -64,15 +64,12 @@
                     <form class="uk-form uk-position-bottom-right">
                         <fieldset data-uk-margin>
                             应用类型：
-                            <select>
-                                
-                                <option>通用</option>
-                                <option>通用</option>
-                                <option>通用</option>
+                            <select id ="sea1">
+                            <?php if(is_array($apply)): foreach($apply as $key=>$v): ?><option value=<?php echo ($v["id"]); ?>><?php echo ($v["apply_name"]); ?></option><?php endforeach; endif; ?>
                             </select>
-                            <input type="text" placeholder="输入表名">
-                            <button class="uk-button"><i class="uk-icon-search"></i></button>
-                            <a class="uk-button uk-button-primary" data-uk-modal="{target:'#add_table'}"><i class="uk-icon-plus"></i> 添加表</a>
+                            <input type="text" placeholder="输入表名" id="sea2">
+                            <button class="uk-button search"><i class="uk-icon-search"></i></button>
+                            <a class="uk-button uk-button-primary " data-uk-modal="{target:'#add_table'}"><i class="uk-icon-plus"></i> 添加表</a>
                             <a class="uk-button uk-button-success" data-uk-modal="{target:'#add_column'}"><i class="uk-icon-plus"></i> 添字段</a>
                         </fieldset>
                     </form>
@@ -87,9 +84,12 @@
                         <tbody>
                             <tr>
                                 <td width="80">
+
                                     <h3 class="uk-h3"><mark>用户表Users</mark> 
+
                                         <a class="uk-button uk-button-mini uk-button-primary" data-uk-modal="{target:'#add_table'}">
                                             <i class="uk-icon-pencil"></i></a>
+
                                         <a class="uk-button uk-button-mini uk-button-success" data-uk-modal="{target:'#trash_table'}">
                                             <i class="uk-icon-trash"></i></a>
                                     </h3>
@@ -173,184 +173,7 @@
                     <!-- 表格01 -->
 
 
-                    <!-- 表格02 -->
-                    <table class="uk-table uk-margin-bottom-remove">
-                        <tbody>
-                            <tr>
-                                <td width="80">
-                                    <h3 class="uk-h3"><mark>角色表Role</mark> 
-                                        <a class="uk-button uk-button-mini uk-button-primary" data-uk-modal="{target:'#add_table'}">
-                                            <i class="uk-icon-pencil"></i></a>
-                                        <a class="uk-button uk-button-mini uk-button-success" data-uk-modal="{target:'#trash_table'}">
-                                            <i class="uk-icon-trash"></i></a>
-                                    </h3>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <div class="uk-overflow-container">
-                        <table class="uk-table uk-table-striped">
-                            <thead>
-                                <tr>
-                                    <th width="10"><input type="checkbox" onclick="checkbox(this)"></th>
-                                    <th width="80">字段名称</th>
-                                    <th width="80">数据类型</th>
-                                    <th width="80">长度/值</th>
-                                    <th width="80">默认值</th>
-                                    <th width="80">是否为空</th>
-                                    <th width="80">是否自增</th>
-                                    <th width="80">主键</th>
-                                    <th width="120">说明</th>
-                                    <th width="60">操作</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td><input type="checkbox"></td>
-                                    <td>id</td>
-                                    <td>int</td>
-                                    <td>11</td>
-                                    <td>null</td>
-                                    <td>否</td>
-                                    <td>是</td>
-                                    <td>是</td>
-                                    <td>记录ID</td>
-                                    <td>
-                                        <a class="uk-button uk-button-mini uk-button-primary">
-                                            <i class="uk-icon-pencil"></i></a>
-                                        <a class="uk-button uk-button-mini uk-button-success">
-                                            <i class="uk-icon-trash"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td><input type="checkbox"></td>
-                                    <td>id</td>
-                                    <td>int</td>
-                                    <td>11</td>
-                                    <td>null</td>
-                                    <td>否</td>
-                                    <td>是</td>
-                                    <td>是</td>
-                                    <td>记录ID</td>
-                                    <td>
-                                        <a class="uk-button uk-button-mini uk-button-primary">
-                                            <i class="uk-icon-pencil"></i></a>
-                                        <a class="uk-button uk-button-mini uk-button-success">
-                                            <i class="uk-icon-trash"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td><input type="checkbox"></td>
-                                    <td>id</td>
-                                    <td>int</td>
-                                    <td>11</td>
-                                    <td>null</td>
-                                    <td>否</td>
-                                    <td>是</td>
-                                    <td>是</td>
-                                    <td>记录ID</td>
-                                    <td>
-                                        <a class="uk-button uk-button-mini uk-button-primary">
-                                            <i class="uk-icon-pencil"></i></a>
-                                        <a class="uk-button uk-button-mini uk-button-success">
-                                            <i class="uk-icon-trash"></i></a>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <hr class="uk-article-divider">
-                    <!-- 表格02 -->
-
-
-                    <!-- 表格03 -->
-                    <table class="uk-table uk-margin-bottom-remove">
-                        <tbody>
-                            <tr>
-                                <td width="80">
-                                    <h3 class="uk-h3"><mark>分类表Catelgo</mark> 
-                                        <a class="uk-button uk-button-mini uk-button-primary" data-uk-modal="{target:'#add_table'}">
-                                            <i class="uk-icon-pencil"></i></a>
-                                        <a class="uk-button uk-button-mini uk-button-success" data-uk-modal="{target:'#trash_table'}">
-                                            <i class="uk-icon-trash"></i></a>
-                                    </h3>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <div class="uk-overflow-container">
-                        <table class="uk-table uk-table-striped">
-                            <thead>
-                                <tr>
-                                    <th width="10"><input type="checkbox" onclick="checkbox(this)"></th>
-                                    <th width="80">字段名称</th>
-                                    <th width="80">数据类型</th>
-                                    <th width="80">长度/值</th>
-                                    <th width="80">默认值</th>
-                                    <th width="80">是否为空</th>
-                                    <th width="80">是否自增</th>
-                                    <th width="80">主键</th>
-                                    <th width="120">说明</th>
-                                    <th width="60">操作</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td><input type="checkbox"></td>
-                                    <td>id</td>
-                                    <td>int</td>
-                                    <td>11</td>
-                                    <td>null</td>
-                                    <td>否</td>
-                                    <td>是</td>
-                                    <td>是</td>
-                                    <td>记录ID</td>
-                                    <td>
-                                        <a class="uk-button uk-button-mini uk-button-primary">
-                                            <i class="uk-icon-pencil"></i></a>
-                                        <a class="uk-button uk-button-mini uk-button-success">
-                                            <i class="uk-icon-trash"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td><input type="checkbox"></td>
-                                    <td>id</td>
-                                    <td>int</td>
-                                    <td>11</td>
-                                    <td>null</td>
-                                    <td>否</td>
-                                    <td>是</td>
-                                    <td>是</td>
-                                    <td>记录ID</td>
-                                    <td>
-                                        <a class="uk-button uk-button-mini uk-button-primary">
-                                            <i class="uk-icon-pencil"></i></a>
-                                        <a class="uk-button uk-button-mini uk-button-success">
-                                            <i class="uk-icon-trash"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td><input type="checkbox"></td>
-                                    <td>id</td>
-                                    <td>int</td>
-                                    <td>11</td>
-                                    <td>null</td>
-                                    <td>否</td>
-                                    <td>是</td>
-                                    <td>是</td>
-                                    <td>记录ID</td>
-                                    <td>
-                                        <a class="uk-button uk-button-mini uk-button-primary">
-                                            <i class="uk-icon-pencil"></i></a>
-                                        <a class="uk-button uk-button-mini uk-button-success">
-                                            <i class="uk-icon-trash"></i></a>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <hr class="uk-article-divider">
-                    <!-- 表格03 -->
+                   
                 </div>
 
                 <div class="uk-width-2-10">
@@ -359,26 +182,15 @@
                         <div class="uk-accordion" data-uk-accordion="{collapse: false, showfirst: false}">
                             <h4 class="uk-accordion-title uk-margin-small uk-h4" status="0">
                                 <i class="uk-icon-caret-right"></i> 用户表Users</h4>
-                            <div data-wrapper="true" style="height: 0px; position: relative; overflow: hidden;" aria-expanded="false"><div class="uk-accordion-content">
-                                <p>1. id-用户ID</p>
-                                <p>2. photo-用户头像</p>
-                            </div></div>
+                            <div data-wrapper="true" style="height: 0px; position: relative; overflow: hidden;" aria-expanded="false">
+                                <div class="uk-accordion-content">
+                                    <p>1. id-用户ID</p>
+                                    <p>2. photo-用户头像</p>
+                                </div>
+                            </div>
 
-                            <h4 class="uk-accordion-title uk-margin-small uk-h4" status="0">
-                                <i class="uk-icon-caret-right"></i> 用户表Users</h4>
-                            <div data-wrapper="true" style="height: 0px; position: relative; overflow: hidden;" aria-expanded="false"><div class="uk-accordion-content">
-                                <p>1. id-用户ID</p>
-                                <p>2. photo-用户头像</p>
-                            </div></div>
-
-                            <h4 class="uk-accordion-title uk-margin-small uk-h4" status="0">
-                                <i class="uk-icon-caret-right"></i> 用户表Users</h4>
-                            <div data-wrapper="true" style="overflow:hidden;height:0;position:relative;" aria-expanded="false"><div class="uk-accordion-content">
-                                <p>1. id-用户ID</p>
-                                <p>2. photo-用户头像</p>
-                            </div></div>
                         </div>
-                        <p class="generator"><a class="uk-button uk-button-danger">生存SQL</a></p>
+                        <p class="generator"><a class="uk-button uk-button-danger getsql">生成SQL</a></p>
                     </div>
                 </div>
             </div>
@@ -434,21 +246,15 @@
                 <form class="uk-form">
                     <fieldset>
                         <div class="uk-form-row">
-                            英文名称：<input type="text" placeholder="">
+                            英文名称：<input type="text" name="name_en" id="w">
                         </div>
                         <div class="uk-form-row">
-                            中文名称：<input type="text" placeholder="">
+                            中文名称：<input type="text" name="name_zh" id ="q">
                         </div>
                         <div class="uk-form-row">
                             选择分类：
-                            <select style="width:150px;">
-                                <option>通用</option>
-                                <option>电子商务</option>
-                                <option>在线教育</option>
-                                <option>旅游社交</option>
-                                <option>互联网金融</option>
-                                <option>体育健身</option>
-                                <option>教育培训</option>
+                            <select style="width:150px;" id ="e">
+                                <?php if(is_array($apply)): foreach($apply as $key=>$c): ?><option name ="apply_id" value ="<?php echo ($c["id"]); ?>"><?php echo ($c["apply_name"]); ?></option><?php endforeach; endif; ?>
                             </select>
                         </div>
                         
@@ -458,7 +264,7 @@
 
                 <div class="uk-modal-footer uk-text-right">
                     <button type="button" class="uk-button uk-modal-close">取消</button>
-                    <button type="button" class="uk-button uk-button-primary uk-modal-close">确认</button>
+                    <button type="button" class="uk-button uk-button-primary uk-modal-close aa">确认</button>
                 </div>
             </div>
         </div>
@@ -472,64 +278,60 @@
                     <h2>添加／编辑字段</h2>
                 </div>
                 
-                <form class="uk-form">
+                <form class="uk-form frm">
                     <fieldset>
                         <div class="uk-form-row">
                             请选择表：
-                            <select style="width:150px;">
-                                <option>用户表Users</option>
-                                <option>角色表Role</option>
+                            <select style="width:150px;" class="m" name="table_id">
+                                <?php if(is_array($table)): foreach($table as $key=>$v): ?><option   value="<?php echo ($v["id"]); ?>"><?php echo ($v["name_zh"]); ?></option><?php endforeach; endif; ?>
                             </select>
                         </div>
                         <div class="uk-form-row">
-                            英文名称：<input type="text" placeholder="">
+                            英文名称：<input type="text" name="field_en" class="m">
                         </div>
-                        <div class="uk-form-row">
-                            中文名称：<input type="text" placeholder="">
-                        </div>
+                        
                         <div class="uk-form-row">
                             数据类型：
-                            <select style="width:150px;">
-                                <option>int－数字</option>
-                                <option>text－文本</option>
+                            <select style="width:150px;" class ="m" name="data_id">
+                            <?php if(is_array($dat)): foreach($dat as $key=>$z): ?><option value="<?php echo ($z["id"]); ?>"><?php echo ($z["data_name"]); ?></option><?php endforeach; endif; ?>
                             </select>
                         </div>
                         <div class="uk-form-row">
-                            字段长度：<input type="text" placeholder="">
+                            字段长度：<input type="text" name="leng" class= "m">
                         </div>
                         <div class="uk-form-row">
-                            设置默认：<input type="text" placeholder="">
+                            设置默认：<input type="text" name="default" class ="m">
                         </div>
                         <div class="uk-form-row">
                             是否为空
-                            <select style="width:150px;">
-                                <option>是</option>
-                                <option>否</option>
+                            <select style="width:150px;" class ="m" name="null" >
+                                <option value="1">是</option>
+                                <option value="0">否</option>
                             </select>
                         </div>
                         <div class="uk-form-row">
                             是否自增
-                            <select style="width:150px;">
-                                <option>是</option>
-                                <option>否</option>
+                            <select style="width:150px;" class="m" name="addself">
+                                <option value="1">是</option>
+                                <option value="0">否</option>
                             </select>
                         </div>
                         <div class="uk-form-row">
                             是否主键
-                            <select style="width:150px;">
-                                <option>是</option>
-                                <option>否</option>
+                            <select style="width:150px;" class="m" name="majorkey">
+                                <option value="1">是</option>
+                                <option value="0">否</option>
                             </select>
                         </div>
                         <div class="uk-form-row">
-                            字段说明：<input type="text" placeholder="">
+                            字段说明：<input type="text" class ="m" name="explain">
                         </div>
                     </fieldset>
                 </form>
 
                 <div class="uk-modal-footer uk-text-right">
                     <button type="button" class="uk-button uk-modal-close">取消</button>
-                    <button type="button" class="uk-button uk-button-primary uk-modal-close">确认</button>
+                    <button type="button" class="uk-button uk-button-primary uk-modal-close xx">确认</button>
                 </div>
             </div>
         </div>
@@ -560,6 +362,55 @@
                         $(_this).attr('data-check', 1);
                     }
                 }
+            $('.aa').click(function(){
+                
+                    var table_array = {}; 
+                    table_array['name_zh'] =$('#q').val();
+                    table_array['name_en']=$('#w').val();
+                    table_array['apply_id'] =$('#e').val();
+
+                    $.post('<?php echo U('addtable');?>',table_array,function(data){
+                        if(data.status){
+                            alert('添加成功')
+                        }else{
+                            alert('添加失败')
+                        }
+                    });
+            });
+       
+            $('.xx').click(function(){
+
+                    var field_array={};
+                    var vals =$('.frm .m');
+                    for(var i =0; i<vals.length; i++){
+                        var name = vals.eq(i).attr('name');
+                        field_array[name] = vals.eq(i).val();
+                    }
+                    $.post('<?php echo U('addfield');?>',field_array,function(){
+                        if(data.status){
+                            alert('添加成功')
+                        }else{
+                            alert('添加失败')
+                        }
+                    });
+            });
+           $('.search').click(function(){
+                    var table_array ={};
+                    var apply_id = $('#sea1').val();
+                    //alert(apply_id);
+                    var name_en = $('#sea2').val();
+                    //alert(name_en);
+                    table_array['apply_id'] =apply_id;
+                    table_array['name_en'] =name_en;
+                     $.post('<?php echo U('search');?>',table_array,function(){
+
+                    });
+            });
+        $('.getsql').click(function(){
+                    $.post('<?php echo U("getsql");?>',{},function(data){
+                        alert(data)
+                    });
+        });
         </script>
     </body>
 </html>
