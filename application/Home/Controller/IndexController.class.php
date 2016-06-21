@@ -9,38 +9,49 @@ class IndexController extends Controller
       查询数据类型
       */
       $ar = M('datatype')->select();
-      
+      //p($ar);
       $this->assign('dat',$ar);
       /*
     	查询表的应用类型
 	    */
    		$arr = M('apply')->select();
-   		$this->assign('apply',$arr);
+      //p($arr);
+      $this->assign('apply',$arr);
    		/*
    		查询表名
    		 */
    		$arr1 = M('table')->select();
-   		$this->assign('table',$arr1);
-   		/*
-   		以表名id关联查询field表
-   		 */
-   		/*$where = array(
-   			'table_id'=>$arr1
-		  );
-   		$arr2 = M('field')->where($where)->select();
-   		$this->assign('field',$arr2);*/
-   		/*
-   		以field的表id关联查询字段类型 
-   		 */
-   		/*$where1 = array(
-   			'field_id'=>$arr2
-		  );
-		  $arr3 = M('datatype')->where($where1)->select();
-   		$this->assign('datatype',$arr3);
+      foreach ($arr1 as $key => $v) 
+      {
+        /*
+      以表名id关联查询field表
+       */
+          $where = array(
+              'table_id'=>$v['id']
+          );
+          $arr2 = M('field')->where($where)->select();
 
-   		$this->assign('apply',$arr);*/
-   		
-		  $this->display();	
+          //p($arr2);
+              foreach ($arr2 as $k => $va) 
+              {
+                    /*
+                  以field的表data_id关联查询字段类型 
+                   */
+                  $where1 = array(
+                      'id'=>$va['data_id']
+                  );
+               
+                  $arr3 = M('datatype')->where($where1)->getField('data_name');
+                  //赋值
+                  $va['data_name']=$arr3;
+                  $arr2[$k]=$va;
+              }
+              //赋值
+              $v['bb'] =$arr2;
+              $arr1[$key]=$v;
+      }
+      $this->assign('table',$arr1);
+      $this->display();	
     }
 	 /*
 		添加表操作 和修改表操作
@@ -54,7 +65,8 @@ class IndexController extends Controller
     		$this->error('页面不存在!');die; 
     	}
     	$arr = I('table_array');
-      //print_r($arr);
+      
+      
       if($arr['id'])
       {
         $result = M('table')->save($arr);
@@ -236,9 +248,14 @@ class IndexController extends Controller
             $this->error('页面不存在!');die;
         }
         //查询选中的表
-        //$arr = I('table_array');
+        $arr = I('table_array');
+        /*array(
+          1,2,3
+          );*/
         $wh1 =array(
-          'id'=>1
+          'id'=>1,
+          
+          
           );
         $sql = M('table')->where($wh1)->select();
 

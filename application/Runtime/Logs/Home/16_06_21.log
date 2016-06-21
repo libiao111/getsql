@@ -1,0 +1,1299 @@
+[ 2016-06-21T09:49:51+08:00 ] 127.0.0.1 /getsql/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.5156s ]
+SQL: SELECT * FROM `apply`  [ RunTime:0.2656s ]
+SQL: SELECT * FROM `table`  [ RunTime:0.1094s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-21T11:19:52+08:00 ] 127.0.0.1 /getsql/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `apply`  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `table`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+SQL: SELECT * FROM `field` WHERE ( ( `table_id` = null AND `table_id` = null AND `table_id` = null AND `table_id` = null  ) AND ( `table_id` = null AND `table_id` = null AND `table_id` = null AND `table_id` = null  ) AND ( `table_id` = null AND `table_id` = null AND `table_id` = null AND `table_id` = null  ) AND ( `table_id` = null AND `table_id` = null AND `table_id` = null AND `table_id` = null  ) AND ( `table_id` = null AND `table_id` = null AND `table_id` = null AND `table_id` = null  )  )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2016-06-21T11:37:25+08:00 ] 127.0.0.1 /getsql/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `apply`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+SQL: SELECT * FROM `field` WHERE ( ( `table_id` = null AND `table_id` = null AND `table_id` = null AND `table_id` = null  ) AND ( `table_id` = null AND `table_id` = null AND `table_id` = null AND `table_id` = null  ) AND ( `table_id` = null AND `table_id` = null AND `table_id` = null AND `table_id` = null  ) AND ( `table_id` = null AND `table_id` = null AND `table_id` = null AND `table_id` = null  ) AND ( `table_id` = null AND `table_id` = null AND `table_id` = null AND `table_id` = null  )  )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-21T11:40:01+08:00 ] 127.0.0.1 /getsql/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `apply`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+SQL: SELECT * FROM `field` WHERE ( ( `table_id` = null AND `table_id` = null AND `table_id` = null AND `table_id` = null  ) AND ( `table_id` = null AND `table_id` = null AND `table_id` = null AND `table_id` = null  ) AND ( `table_id` = null AND `table_id` = null AND `table_id` = null AND `table_id` = null  ) AND ( `table_id` = null AND `table_id` = null AND `table_id` = null AND `table_id` = null  ) AND ( `table_id` = null AND `table_id` = null AND `table_id` = null AND `table_id` = null  )  )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-21T11:50:44+08:00 ] 127.0.0.1 /getsql/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `apply`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+SQL: SELECT * FROM `field` WHERE ( ( `table_id` = null AND `table_id` = null AND `table_id` = null AND `table_id` = null  ) AND ( `table_id` = null AND `table_id` = null AND `table_id` = null AND `table_id` = null  ) AND ( `table_id` = null AND `table_id` = null AND `table_id` = null AND `table_id` = null  ) AND ( `table_id` = null AND `table_id` = null AND `table_id` = null AND `table_id` = null  ) AND ( `table_id` = null AND `table_id` = null AND `table_id` = null AND `table_id` = null  )  )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-21T11:53:30+08:00 ] 127.0.0.1 /getsql/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `apply`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 1 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 2 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 3 E:\www\getsql\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+SQL: SELECT * FROM `field` WHERE ( ( `table_id` = null AND `table_id` = null AND `table_id` = null AND `table_id` = null  ) AND ( `table_id` = null AND `table_id` = null AND `table_id` = null AND `table_id` = null  ) AND ( `table_id` = null AND `table_id` = null AND `table_id` = null AND `table_id` = null  ) AND ( `table_id` = null AND `table_id` = null AND `table_id` = null AND `table_id` = null  ) AND ( `table_id` = null AND `table_id` = null AND `table_id` = null AND `table_id` = null  )  )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2016-06-21T11:58:55+08:00 ] 127.0.0.1 /getsql/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `apply`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: arr2 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 45 行.
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-21T11:59:52+08:00 ] 127.0.0.1 /getsql/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `apply`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2016-06-21T12:03:02+08:00 ] 127.0.0.1 /getsql/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `apply`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table`  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 3  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 5  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-21T12:08:48+08:00 ] 127.0.0.1 /getsql/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `apply`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 5  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-21T12:26:21+08:00 ] 127.0.0.1 /getsql/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `apply`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `field` WHERE `table_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `field` WHERE `table_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 5  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-21T12:29:48+08:00 ] 127.0.0.1 /getsql/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `apply`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `field` WHERE `table_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `field` WHERE `table_id` = 4  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 5  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-21T12:30:34+08:00 ] 127.0.0.1 /getsql/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `apply`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `datatype` WHERE `id` = 1  [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype` WHERE `id` = 2  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `field` WHERE `table_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `datatype` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `field` WHERE `table_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 5  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-21T12:30:36+08:00 ] 127.0.0.1 /getsql/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `apply`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `datatype` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype` WHERE `id` = 2  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype` WHERE `id` = 1  [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `field` WHERE `table_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `datatype` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `field` WHERE `table_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 5  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-21T12:30:37+08:00 ] 127.0.0.1 /getsql/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `apply`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `datatype` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype` WHERE `id` = 2  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `field` WHERE `table_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `datatype` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `field` WHERE `table_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 5  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.015625s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015625s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-21T12:30:38+08:00 ] 127.0.0.1 /getsql/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `apply`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `datatype` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype` WHERE `id` = 2  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `field` WHERE `table_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 3  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `datatype` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `field` WHERE `table_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 5  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-21T12:31:58+08:00 ] 127.0.0.1 /getsql/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `apply`  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `table`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `datatype` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype` WHERE `id` = 2  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `datatype` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `field` WHERE `table_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `datatype` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data_name E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `field` WHERE `table_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 5  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-21T12:35:34+08:00 ] 127.0.0.1 /getsql/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `apply`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `field` WHERE `table_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT * FROM `field` WHERE `table_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 5  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-21T12:36:10+08:00 ] 127.0.0.1 /getsql/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `apply`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT * FROM `field` WHERE `table_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT * FROM `field` WHERE `table_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 5  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-21T12:39:25+08:00 ] 127.0.0.1 /getsql/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `apply`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT * FROM `field` WHERE `table_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT * FROM `field` WHERE `table_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 5  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-21T12:39:35+08:00 ] 127.0.0.1 /getsql/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `apply`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT * FROM `field` WHERE `table_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: arr3 E:\www\getsql\application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT * FROM `field` WHERE `table_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 5  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-21T12:40:20+08:00 ] 127.0.0.1 /getsql/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `datatype`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `apply`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `data_name` FROM `datatype` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `field` WHERE `table_id` = 5  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\www\getsql\ThinkPHP\Common\functions.php:850) E:\www\getsql\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
