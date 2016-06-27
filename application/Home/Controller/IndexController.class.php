@@ -348,35 +348,37 @@ class IndexController extends Controller
         //生成sql 语句
         foreach ($table as $ke => $va) 
         {
-            $result .= 'create table'.' '.$ke .'( ';
+            $result .= 'create table'.' '.$ke .' ( ';
             foreach ($va as $k => $v) 
             {
-                $result .=$v['field_en'].' '.$v['data_name'].'('.$v['leng'].') ';
-                if($v['null']==0)
-                {
-                        $result .='not null';
-                }if($v['null']==1)
-                {
-                        $result .='  null ';
+                $result .=$v['field_en'].' '.$v['data_name'];
+                if($v['leng']){
+                    $result .=' ('.$v['leng'].')';
                 }
-                if($v['addself']==1)
-                {
-                        $result .=' auto_increment ';
+                if(!$v['null']){
+                    $result .=' not null';
                 }
-                if($v['majorkey']==1)
-                {
-                        $result .=' primary key ';
+                if($v['null']){
+                        $result .='  null';
                 }
-                 if($v['default'] != "")
-                {
+                if($v['addself']){
+                        $result .=' auto_increment';
+                }
+                if($v['majorkey']){
+                        $result .=' primary key';
+                }
+                 if(!$v['default']){
                         $result .=' default '.$v['default'];
                 }
-                if(count($va)> ($k+1)) 
-                {
+                if($v['explain']){
+                    $result .= ' comment'." '".$v['explain']."'";
+                }
+               if(count($va)> ($k+1)) {
                         $result .= ', ';
                 }
+
             }
-                $result .= ');';
+            $result .= ');';
         }
         $this->ajaxReturn($result,'json');
     }
