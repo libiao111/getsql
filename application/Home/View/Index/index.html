@@ -17,6 +17,7 @@
 </head>
 
 <body>
+
     <div class="modal">
         <div class="back"></div>
         <div class="m-main">
@@ -25,6 +26,8 @@
             <button onclick="copy('tarcopy')" id="copy">复制</button>
         </div>
     </div>
+
+
     <div class=" uk-margin-large-left uk-margin-large-right" style="padding-top: 50px;">
         <div class="uk-grid">
             <div class="uk-width-1-2">
@@ -96,11 +99,11 @@
                                         </td>
                                         <td>{$zd.field_en}</td>
                                         <td>{$zd.data_name}</td>
-                                        <td>{$zd.leng}</td>
-                                        <td>{$zd.default}</td>
-                                        <td>{$zd.null}</td>
-                                        <td>{$zd.addself}</td>
-                                        <td>{$zd.majorkey}</td>
+                                        <td><if condition="$zd['leng']">{$zd.leng}<else/>-</if></td>
+                                        <td><if condition="$zd['default']">{$zd.default}<else/>null</if></td>
+                                        <td><if condition="$zd['null']">null<else/>not null</if></td>
+                                        <td><if condition="$zd['addself']">自增<else/>-</if></td>
+                                        <td><if condition="$zd['majorkey']">主键<else/>-</if></td>
                                         <td>{$zd.explain}</td>
                                         <td>
                                             <a class="uk-button uk-button-mini uk-button-primary modify1" data-uk-modal="{target:'#add_column'}">

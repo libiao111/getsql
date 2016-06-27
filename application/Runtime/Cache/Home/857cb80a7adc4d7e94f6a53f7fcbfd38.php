@@ -17,6 +17,7 @@
 </head>
 
 <body>
+
     <div class="modal">
         <div class="back"></div>
         <div class="m-main">
@@ -25,6 +26,8 @@
             <button onclick="copy('tarcopy')" id="copy">复制</button>
         </div>
     </div>
+
+
     <div class=" uk-margin-large-left uk-margin-large-right" style="padding-top: 50px;">
         <div class="uk-grid">
             <div class="uk-width-1-2">
@@ -92,11 +95,11 @@
                                         </td>
                                         <td><?php echo ($zd["field_en"]); ?></td>
                                         <td><?php echo ($zd["data_name"]); ?></td>
-                                        <td><?php echo ($zd["leng"]); ?></td>
-                                        <td><?php echo ($zd["default"]); ?></td>
-                                        <td><?php echo ($zd["null"]); ?></td>
-                                        <td><?php echo ($zd["addself"]); ?></td>
-                                        <td><?php echo ($zd["majorkey"]); ?></td>
+                                        <td><?php if($zd['leng']): echo ($zd["leng"]); else: ?>-<?php endif; ?></td>
+                                        <td><?php if($zd['default']): echo ($zd["default"]); else: ?>null<?php endif; ?></td>
+                                        <td><?php if($zd['null']): ?>null<?php else: ?>not null<?php endif; ?></td>
+                                        <td><?php if($zd['addself']): ?>自增<?php else: ?>-<?php endif; ?></td>
+                                        <td><?php if($zd['majorkey']): ?>主键<?php else: ?>-<?php endif; ?></td>
                                         <td><?php echo ($zd["explain"]); ?></td>
                                         <td>
                                             <a class="uk-button uk-button-mini uk-button-primary modify1" data-uk-modal="{target:'#add_column'}">
