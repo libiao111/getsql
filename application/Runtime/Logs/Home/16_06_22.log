@@ -11515,6 +11515,7 @@ INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 SQL: SELECT * FROM `table` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
 
+<<<<<<< HEAD
 [ 2016-06-22T19:24:13+08:00 ] 127.0.0.1 /getsql/
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -11947,3 +11948,5 @@ INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
 SQL: SELECT * FROM `field` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0156s ]
 
+=======
+>>>>>>> 0736cfe46fe507f306da5dae6608e12064bd165a
