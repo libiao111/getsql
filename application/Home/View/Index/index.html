@@ -38,16 +38,14 @@
                     <fieldset data-uk-margin>
                         应用类型：
                         <select id="sel" name="type_id">
+                            <option value="">全部</option>
                             <foreach name="apply" item="val">
-                                <option value="{$val.id}">
-                                    {$val.apply_name}
-                                </option>
+                                <option value="{$val.id}" <if condition="$type_id eq $val['id']">selected</if>>{$val.apply_name}</option>
                             </foreach>
                         </select>
-                        <input type="text" placeholder="输入表名" id="search" name="key">
+                        <input type="text" placeholder="输入表名" id="search" value="{$seek}" name="key">
                         <button class="uk-button search"><i class="uk-icon-search"></i></button>
                         <a class="uk-button uk-button-primary sky" data-uk-modal="{target:'#add_table'}"><i class="uk-icon-plus"></i> 添加表</a>
-                        <!-- <a class="uk-button uk-button-success sky1" data-uk-modal="{target:'#add_column'}"><i class="uk-icon-plus"></i> 添字段</a> -->
                     </fieldset>
                 </form>
             </div>

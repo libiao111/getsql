@@ -38,14 +38,12 @@
                     <fieldset data-uk-margin>
                         应用类型：
                         <select id="sel" name="type_id">
-                            <?php if(is_array($apply)): foreach($apply as $key=>$val): ?><option value="<?php echo ($val["id"]); ?>">
-                                    <?php echo ($val["apply_name"]); ?>
-                                </option><?php endforeach; endif; ?>
+                            <option value="">全部</option>
+                            <?php if(is_array($apply)): foreach($apply as $key=>$val): ?><option value="<?php echo ($val["id"]); ?>" <?php if($type_id == $val['id']): ?>selected<?php endif; ?>><?php echo ($val["apply_name"]); ?></option><?php endforeach; endif; ?>
                         </select>
-                        <input type="text" placeholder="输入表名" id="search" name="key">
+                        <input type="text" placeholder="输入表名" id="search" value="<?php echo ($seek); ?>" name="key">
                         <button class="uk-button search"><i class="uk-icon-search"></i></button>
                         <a class="uk-button uk-button-primary sky" data-uk-modal="{target:'#add_table'}"><i class="uk-icon-plus"></i> 添加表</a>
-                        <!-- <a class="uk-button uk-button-success sky1" data-uk-modal="{target:'#add_column'}"><i class="uk-icon-plus"></i> 添字段</a> -->
                     </fieldset>
                 </form>
             </div>

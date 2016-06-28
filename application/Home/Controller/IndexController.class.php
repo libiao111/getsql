@@ -16,14 +16,15 @@ class IndexController extends Controller
                 'name_zh' => array( 'like','%'.$key.'%' ),
                 'name_en' => array( 'like','%'.$key.'%' )
             );
+            $type_id = '';
         }
         //判断应用类型id,赋值
-        if ($type_id) {
+        if ($type_id && !$key) {
             $arr['apply_id'] = $type_id;
         }
         /* 分配到页面 */
         $this->type_id = $type_id;
-        $this->key = $key;
+        $this->seek = $key;
         /* 查询数据类型 */
         $datatype = M('datatype')->select();
         $this->assign('dat',$datatype);
@@ -178,7 +179,6 @@ class IndexController extends Controller
         if(!IS_AJAX){
             $this->error('页面不存在!');die;
         }   
-        p($_POST);
         $arr=array(
             
             'field_en'  =>I('field_en'),
