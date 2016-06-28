@@ -288,7 +288,7 @@
     </div>
     
     <!-- 克隆插入 -->
-    <div id="clone">
+    <div id="clone" style="display:none">
         <div class="clone-box">
             <h4 class="uk-accordion-title uk-margin-small uk-h4" status="0">
                 <i class="uk-icon-caret-right"></i> 用户表Users
@@ -339,7 +339,7 @@
 
                         htm.find('div.uk-accordion-content').append('<p>'+(i+1)+'. '+en+'-'+zh+'</p>');
                     };
-                    
+
                     $('#join-table-list').prepend(htm);
     
                     /* 绑定事件 */
