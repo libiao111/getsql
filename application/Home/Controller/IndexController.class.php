@@ -178,11 +178,11 @@ class IndexController extends Controller
         if(!IS_AJAX){
             $this->error('页面不存在!');die;
         }   
-        //p($_POST);
+        p($_POST);
         $arr=array(
             
             'field_en'  =>I('field_en'),
-            'apply_id'  =>I('apply_id'),
+            //'apply_id'  =>I('apply_id'),
             'leng'      =>I('leng'),
             'default'   =>I('default'),
             'addself'   =>I('addself'),
@@ -192,12 +192,12 @@ class IndexController extends Controller
             'null'      =>I('null'),
             'table_id'  =>I('table_id')
           );
-       
-      /*  $arr2 = array(
+        
+        /*$arr2 = array(
           'field_en'=>I('field_en')
         );
         $result = M('field')->where($arr2)->select();
-       /if($result){
+       if($result){
             $data = array('status'=>2);
             $this->ajaxReturn($data,'json');
         }else{*/
@@ -318,7 +318,7 @@ class IndexController extends Controller
         foreach ($sql1 as $k1 => $v1) {
             //以table_id 查询表id
             $wh['id'] =array('in',$v1['table_id']);
-            $sql = M('table')->where($wh)->getField('name_en');
+            $sql = M('table')->where($wh)->field('name_en,name_zh')->find();
             //以data_id 查询类型id
             $wh3 = array(
               'id' =>$v1['data_id']
@@ -327,58 +327,90 @@ class IndexController extends Controller
             //赋值
             $v1['data_name']=$sql3;
             $sql1[$k1]=$v1;
-            $v1['name_en']=$sql;
+            $v1['name_en']=$sql['name_en'];
+            $v1['name_zh']=$sql['name_zh'];
             $sql1[$k1]=$v1;
         }
         //$sql1中name_en字段分组，重复的
         $table = array();
+        $table_name = array();
         foreach ($sql1 as $k => $v) 
         {
-
             if(!$k){
+                /* 默认开始表ID */
                 $table_id = $v['table_id'];
+                /* 表名备注 */
+                $table_name[$v['name_en']] = $v['name_zh'];
             }
+
             if($table_id == $v['table_id']) {
+                /* 相同表追加 */
                 $table[$v['name_en']][] = $v;
             } else {
+                /* 重新赋值表ID */
                 $table_id = $v['table_id'];
+                /* 不同表新建 */
                 $table[$v['name_en']][] = $v;
+                /* 表名备注 */
+                $table_name[$v['name_en']] = $v['name_zh'];
             }
+
         }
+
         //生成sql 语句
+        $result = '';
         foreach ($table as $ke => $va) 
         {
-            $result .= 'create table'.' '.$ke .' ( ';
+            /* 表名称 */
+            $result .= 'create table '.$ke.'(';
             foreach ($va as $k => $v) 
             {
-                $result .=$v['field_en'].' '.$v['data_name'];
-                if($v['leng']){
-                    $result .=' ('.$v['leng'].')';
+                /* 字段名/类型 */
+                $result .= $v['field_en'].' '.$v['data_name'];
+                /* 字段长度 */
+                if ($v['leng']) {
+                    $result .= '('.$v['leng'].')';
                 }
-                if(!$v['null']){
-                    $result .=' not null';
+                /* 主键 */
+                if($v['majorkey'])
+                {
+                    $result .= ' primary key';
                 }
-                if($v['null']){
-                        $result .='  null';
+                /* 自增 */
+                if($v['addself'])
+                {
+                    $result .= ' auto_increment';
                 }
-                if($v['addself']){
-                        $result .=' auto_increment';
+                /* 默认值 */
+                if($v['default'])
+                {
+                    if($v['default']=='current_timestamp'){
+                         $result .= ' default';
+                    }
+                    $result .= ' '.$v['default'];
+                } else {
+                    /* 是否为空 */
+                    if($v['null'])
+                    {
+                        /* 默认值 */
+                        $result .= ' default';
+                        /* 是否为空 */
+                        $result .= ' null';
+                    } else {
+                        $result .= ' not null';
+                    }
                 }
-                if($v['majorkey']){
-                        $result .=' primary key';
+                /* 字段注释 */
+                if ($v['explain']) {
+                    $result .= " comment '".$v['explain']."'";
                 }
-                 if(!$v['default']){
-                        $result .=' default '.$v['default'];
-                }
-                if($v['explain']){
-                    $result .= ' comment'." '".$v['explain']."'";
-                }
-               if(count($va)> ($k+1)) {
-                        $result .= ', ';
+                if(count($va)> ($k+1))
+                {
+                    $result .= ',';
                 }
 
             }
-            $result .= ');';
+            $result .= ") comment '".$table_name[$ke]."';";
         }
         $this->ajaxReturn($result,'json');
     }

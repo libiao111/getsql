@@ -17,6 +17,7 @@
 </head>
 
 <body>
+
     <div class="modal">
         <div class="back"></div>
         <div class="m-main">
@@ -25,6 +26,8 @@
             <button onclick="copy('tarcopy')" id="copy">复制</button>
         </div>
     </div>
+
+
     <div class=" uk-margin-large-left uk-margin-large-right" style="padding-top: 50px;">
         <div class="uk-grid">
             <div class="uk-width-1-2">
@@ -44,7 +47,7 @@
                         <input type="text" placeholder="输入表名" id="search" name="key">
                         <button class="uk-button search"><i class="uk-icon-search"></i></button>
                         <a class="uk-button uk-button-primary sky" data-uk-modal="{target:'#add_table'}"><i class="uk-icon-plus"></i> 添加表</a>
-                        <a class="uk-button uk-button-success sky1" data-uk-modal="{target:'#add_column'}"><i class="uk-icon-plus"></i> 添字段</a>
+                        <!-- <a class="uk-button uk-button-success sky1" data-uk-modal="{target:'#add_column'}"><i class="uk-icon-plus"></i> 添字段</a> -->
                     </fieldset>
                 </form>
             </div>
@@ -59,13 +62,15 @@
                         <tbody>
                             <tr>
                                 <td width="80">
-                                    <h3 class="uk-h3"><mark id="{$v.id}">{$v.name_zh}{$v.name_en}</mark>
-                                            <input class = "test" type ="text" style="display:none" value="{$v.id}">
-                                            <a class="uk-button uk-button-mini uk-button-primary modify" data-uk-modal="{target:'#add_table'}">
-                                                <i class="uk-icon-pencil"></i></a>
-                                            <a class="uk-button uk-button-mini uk-button-success del_col1" data-uk-modal="{target:'#trash_table'}" >
-                                                <i class="uk-icon-trash"></i></a>
-                                        </h3>
+                                    <h3 class="uk-h3">
+                                        <mark id="{$v.id}">{$v.name_zh}{$v.name_en}</mark>
+                                        <input class = "test" type ="text" style="display:none" value="{$v.id}">
+                                        <a class="uk-button uk-button-mini uk-button-primary modify" data-uk-modal="{target:'#add_table'}">
+                                            <i class="uk-icon-pencil"></i></a>
+                                        <a class="uk-button uk-button-mini uk-button-success del_col1" data-uk-modal="{target:'#trash_table'}" >
+                                            <i class="uk-icon-trash"></i></a>
+                                        <a class="uk-button uk-button-success sky1" data-uk-modal="{target:'#add_column'}"><i class="uk-icon-plus"></i> 添字段</a>
+                                    </h3>
                                 </td>
                             </tr>
                         </tbody>
@@ -96,17 +101,18 @@
                                         </td>
                                         <td>{$zd.field_en}</td>
                                         <td>{$zd.data_name}</td>
-                                        <td>{$zd.leng}</td>
-                                        <td>{$zd.default}</td>
-                                        <td>{$zd.null}</td>
-                                        <td>{$zd.addself}</td>
-                                        <td>{$zd.majorkey}</td>
+                                        <td><if condition="$zd['leng']">{$zd.leng}<else/>-</if></td>
+                                        <td><if condition="$zd['default']">{$zd.default}<else/>null</if></td>
+                                        <td><if condition="$zd['null']">null<else/>not null</if></td>
+                                        <td><if condition="$zd['addself']">自增<else/>-</if></td>
+                                        <td><if condition="$zd['majorkey']">主键<else/>-</if></td>
                                         <td>{$zd.explain}</td>
                                         <td>
                                             <a class="uk-button uk-button-mini uk-button-primary modify1" data-uk-modal="{target:'#add_column'}">
                                                 <i class="uk-icon-pencil"></i></a>
                                             <a class="uk-button uk-button-mini uk-button-success del_col" data-uk-modal="{target:'#trash_column'}">
                                                 <i class="uk-icon-trash"></i></a>
+
                                         </td>
                                     </tr>
                                 </foreach>
@@ -245,13 +251,13 @@
             <form class="uk-form">
                 <fieldset>
                     <div class="uk-form-row">
-                        请选择表：
-                        <select style="width:150px;" id="table_id">
-                            <foreach name="table" item="tab">
-                                <option value="{$tab.id}">{$tab.name_zh}</option>
-                            </foreach>
-                        </select>
-                    </div>
+                       请选择表：
+                       <select style="width:150px;" id="table_id">
+                           <foreach name="table" item="tab">
+                               <option value="{$tab.id}">{$tab.name_zh}</option>
+                           </foreach>
+                       </select>
+                   </div>
                     <div class="uk-form-row">
                         英文名称：
                         <input type="text" placeholder="" id="fname_en">
@@ -493,7 +499,23 @@
                     $('#tname_zh').val("");
                     //$('#tapply_id').val("");
             })
-           //添加field字段
+           
+            var tab = "";
+            //字段的默认值设为空
+            $('.sky1').click(function(){
+                "use strict";
+                let this_=$(this), 
+                tab=this_.siblings('mark').attr('id');
+               
+                handle1_id="";
+                $('#table_id').val(tab);
+                $('#fname_en').val("");
+                $('#fleng').val("");
+                $('#fdefault').val("");
+                $('#fexplain').val("");
+               
+            })
+            //添加field字段
             $('#add_field').click(function () {
                 "use strict";
                     const add_field = "{:U('addfield')}";
@@ -505,7 +527,7 @@
                         'default': $('#fdefault').val(),
                         'data_id': $('#fdata_id').val(),
                         'explain': $('#fexplain').val(),
-                        'fnull': $('#fnull').val(),
+                        'null': $('#fnull').val(),
                         'majorkey': $('#fprimarykey').val(),
                         'addself': $('#fincre').val(),
                     }, function (data) {
@@ -519,19 +541,7 @@
                         }
                     })
                 })
-            //字段的默认值设为空
-            $('.sky1').click(function(){
-                handle1_id="";
-                        $('#fname_en').val("");
-                        $('#fleng').val("");
-                        //$('#fnull').val("");
-                        $('#fdefault').val("");
-                       // $('#table_id').val("");
-                       // $('#fdata_id').val("");
-                        $('#fexplain').val("");
-                        //$('#fincre').val("");
-                       // $('#fprimarykey').val("");
-            })
+            
                 //搜索提交操作
             $('.search').click(function (e) {
                 $('.frm').submit();
