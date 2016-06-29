@@ -7,5 +7,5 @@
 		
 		// 绑定入口文件到Admin模块访问
 		//define('BIND_MODULE','Admin');
-		require './ThinkPHP/ThinkPHP.php';
+		require '../ThinkPHP/ThinkPHP.php';
 ?>
