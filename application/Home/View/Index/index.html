@@ -52,10 +52,7 @@
                         <input type="text" placeholder="输入表名" id="search" value="{$seek}" name="key">
                         <button class="uk-button search"><i class="uk-icon-search"></i></button>
                         <a class="uk-button uk-button-primary sky" data-uk-modal="{target:'#add_table'}"><i class="uk-icon-plus"></i> 添加表</a>
-<<<<<<< HEAD
-                        <a class="uk-button uk-button-success chu" href="{:U('tuichu')}">退出登录</a>
-=======
->>>>>>> 45f61ffa06ad32162adcbf19c64dfcdea4d94031
+                        <a class="uk-button uk-button-primary" href="{:U('tuichu')}">退出登录</a>
                     </fieldset>
                 </form>
             </div>
@@ -83,34 +80,6 @@
                                     </h3>
                                     </td>
                                 </tr>
-<<<<<<< HEAD
-                            </thead>
-                            <tbody>
-                                <foreach name='v.bb' item='zd'>
-                                    <tr>
-                                        <td>
-                                            <input type="checkbox" id="{$zd.id}">
-                                        </td>
-                                        <td>{$zd.field_en}</td>
-                                        <td>{$zd.data_name}</td>
-                                        <td><if condition="$zd['leng']">{$zd.leng}<else/>-</if></td>
-                                        <td><if condition="$zd['default']">{$zd.default}<else/>null</if></td>
-                                        <td><if condition="$zd['null']">null<else/>not null</if></td>
-                                        <td><if condition="$zd['addself']">自增<else/>-</if></td>
-                                        <td><if condition="$zd['majorkey']">主键<else/>-</if>
-                                        </td>
-                                        <td>{$zd.explain}</td>
-                                        <td>
-                                            <a class="uk-button uk-button-mini uk-button-primary modify1" data-uk-modal="{target:'#add_column'}">
-                                                <i class="uk-icon-pencil"></i></a>
-                                            <a class="uk-button uk-button-mini uk-button-success del_col" data-uk-modal="{target:'#trash_column'}">
-                                                <i class="uk-icon-trash"></i></a>
-
-                                        </td>
-                                    </tr>
-                                </foreach>
-=======
->>>>>>> 45f61ffa06ad32162adcbf19c64dfcdea4d94031
                             </tbody>
                         </table>
                         <div class="uk-overflow-container">
@@ -363,38 +332,71 @@
 
     <script type="text/javascript">
         $(document).ready(function () {
-             var objTable = $('.tables-box');
-             objTable.find('input[type="checkbox"]').click(function () {
-                 var _this = $(this);
-                 var obj = _this.parents('div.tables-box');
-                 addDiv(obj);
-             });
-             function addDiv(obj) {
-                 /* 选择选中多选框 */
-                 var vals = obj.find('input[name="zd"]:checked');
-                 var tableName = obj.find('mark').attr('name');
-                 /* 删除已插入的列表 */
-                 $('#join-table-list').find('h4[data-name="' + tableName + '"]').parent('div.clone-box').remove();
-                 /* 加入选中表(字段) */
-                 if (vals.length) {
-                     var htm = $('#clone .clone-box').clone();
-                     var tit = obj.find('mark').text();
-                     htm.find('h4').html('<i class="uk-icon-caret-right"></i> ' + tit);
-                     htm.find('h4').attr('data-name', tableName);
-                     for (var i = 0; i < vals.length; i++) {
-                         var tr = vals.eq(i).parents('tr');
-                         var en = tr.find('td').eq(1).text();
-                         var zh = tr.find('td').eq(8).text();
-                         htm.find('div.uk-accordion-content').append('<p>' + (i + 1) + '. ' + en + '-' + zh + '</p>');
-                     };
-                     $('#join-table-list').prepend(htm);
-                     /* 绑定事件 */
-                     htm.find('h4').click(function () {
-                         var _this = $(this);
-                         _this.next('div').slideToggle();
-                     });
-                 }
-             }
+            "use strict";
+            let objTable = $('.tables-box');
+            objTable.find('input[type="checkbox"]').click(function () {
+                let _this = $(this),
+                    obj = _this.parents('div.tables-box');
+                addDiv(obj);
+            });
+            function addDiv(obj) {
+                /* 选择选中多选框 */
+                let vals = obj.find('input[name="zd"]:checked'),
+                    tableName = obj.find('mark').attr('name');
+                /* 删除已插入的列表 */
+                $('#join-table-list').find('h4[data-name="' + tableName + '"]').parent('div.clone-box').remove();
+                /* 加入选中表(字段) */
+                if (vals.length) {
+                    let htm = $('#clone .clone-box').clone(),
+                        tit = obj.find('mark').text();
+                    htm.find('h4').html('<i class="uk-icon-caret-right"></i> ' + tit);
+                    htm.find('h4').attr('data-name', tableName);
+                    for (let i = 0; i < vals.length; i++) {
+                        let tr = vals.eq(i).parents('tr'),
+                            en = tr.find('td').eq(1).text(),
+                            zh = tr.find('td').eq(8).text();
+                        htm.find('div.uk-accordion-content').append('<p>' + (i + 1) + '. ' + en + '-' + zh + '</p>');
+                    };
+                    $('#join-table-list').prepend(htm);
+                    /* 绑定事件 */
+                    htm.find('h4').click(function () {
+                        let _this = $(this);
+                        _this.next('div').slideToggle();
+                    });
+                }
+            }
+            // var objTable = $('.tables-box');
+            // objTable.find('input[type="checkbox"]').click(function () {
+            //     var _this = $(this);
+            //     var obj = _this.parents('div.tables-box');
+            //     addDiv(obj);
+            // });
+            // function addDiv(obj) {
+            //     /* 选择选中多选框 */
+            //     var vals = obj.find('input[name="zd"]:checked');
+            //     var tableName = obj.find('mark').attr('name');
+            //     /* 删除已插入的列表 */
+            //     $('#join-table-list').find('h4[data-name="' + tableName + '"]').parent('div.clone-box').remove();
+            //     /* 加入选中表(字段) */
+            //     if (vals.length) {
+            //         var htm = $('#clone .clone-box').clone();
+            //         var tit = obj.find('mark').text();
+            //         htm.find('h4').html('<i class="uk-icon-caret-right"></i> ' + tit);
+            //         htm.find('h4').attr('data-name', tableName);
+            //         for (var i = 0; i < vals.length; i++) {
+            //             var tr = vals.eq(i).parents('tr');
+            //             var en = tr.find('td').eq(1).text();
+            //             var zh = tr.find('td').eq(8).text();
+            //             htm.find('div.uk-accordion-content').append('<p>' + (i + 1) + '. ' + en + '-' + zh + '</p>');
+            //         };
+            //         $('#join-table-list').prepend(htm);
+            //         /* 绑定事件 */
+            //         htm.find('h4').click(function () {
+            //             var _this = $(this);
+            //             _this.next('div').slideToggle();
+            //         });
+            //     }
+            // }
         });
 
 
@@ -413,10 +415,7 @@
                                 $('.modal1').hide();
                             }, 1000);
         }
-<<<<<<< HEAD
-=======
 
->>>>>>> 45f61ffa06ad32162adcbf19c64dfcdea4d94031
         $(function () {
             $('.m-main>button').click(function () {
                     "use strict";
@@ -519,14 +518,12 @@
                             $('.modal1>h2').text('fail');
                             setTimeout(function () {
                                 $('.modal1').hide();
-                                location.reload();
                             }, 1000);
                         } else {
                             $('.modal1').show();
                             $('.modal1>h2').text('success');
                             setTimeout(function () {
                                 $('.modal1').hide();
-                                location.reload();
                             }, 1000);
                         }
                     });
@@ -595,7 +592,6 @@
                         $('.modal1>h2').text('fail');
                         setTimeout(function () {
                             $('.modal1').hide();
-                            location.reload();
                         }, 1000);
                         window.location.reload(true);
                     } else if (data.status == 1) {
@@ -603,27 +599,17 @@
                         $('.modal1>h2').text('success');
                         setTimeout(function () {
                             $('.modal1').hide();
-                            location.reload();
                         }, 1000);
                     } else if (data.status == 2) {
                         $('.modal1').show();
                         $('.modal1>h2').text('exist');
                         setTimeout(function () {
                             $('.modal1').hide();
-                            location.reload();
                         }, 1000);
                     }
                 });
             });
             //表的默认值设为空
-<<<<<<< HEAD
-            $('.sky').click(function(){
-                handle_id ="";
-                    $('#tname_en').val("");
-                    $('#tname_zh').val("");
-            })
-           
-=======
             $('.sky').click(function () {
                 handle_id = "";
                 $('#tname_en').val("");
@@ -631,7 +617,6 @@
                 //$('#tapply_id').val("");
             });
 
->>>>>>> 45f61ffa06ad32162adcbf19c64dfcdea4d94031
             var tab = "";
             //字段的默认值设为空
             $('.sky1').click(function () {
@@ -669,21 +654,18 @@
                             $('.modal1>h2').text('fail');
                             setTimeout(function () {
                                 $('.modal1').hide();
-                                location.reload();
                             }, 1000);
                     } else if (data.status == 1) {
                         $('.modal1').show();
                             $('.modal1>h2').text('success');
                             setTimeout(function () {
                                 $('.modal1').hide();
-                                location.reload();
                             }, 1000);
                     } else if (data.status == 2) {
                         $('.modal1').show();
                             $('.modal1>h2').text('exist');
                             setTimeout(function () {
                                 $('.modal1').hide();
-                                location.reload();
                             }, 1000);
                     }
                 });
