@@ -2,9 +2,41 @@
 namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller 
-{
+{   
+    public function _initialize(){
+        if(!session('user')) {
+            if (IS_AJAX) {
+                $user = I('username');
+                $pass = I('password');
+                $arr = array(
+                    'username'=>$user,
+                    'password'=>$pass
+                );
+                //p($arr);
+                $result = M('users')->where($arr)->select();
+                if($result){
+                    $data = array('status'=>1);
+                    session('user', $result);
+                } else {
+                    $data = array('status'=>0);
+                }
+                $this->ajaxReturn($data,'json');
+            } else {
+                $this->display("login"); die;  
+
+            }
+        }
+     }
+    public function tuichu(){
+        session_start();
+        session_unset();
+        session_destroy();
+        $this->redirect('Index/index',3000);
+    }
+
     public function index()
-    {
+    {   
+
         /* 筛选条件 */
         $type_id = I('type_id');
         $key = I('key');
@@ -53,7 +85,8 @@ class IndexController extends Controller
         $this->assign('table',$tablename);
         $this->display();	
     }
-	 
+
+	
     /*
     添加表操作 和修改表操作
     */
@@ -178,7 +211,6 @@ class IndexController extends Controller
         if(!IS_AJAX){
             $this->error('页面不存在!');die;
         }   
-        p($_POST);
         $arr=array(
             
             'field_en'  =>I('field_en'),
@@ -192,38 +224,27 @@ class IndexController extends Controller
             'null'      =>I('null'),
             'table_id'  =>I('table_id')
           );
-        
-        /*$arr2 = array(
-          'field_en'=>I('field_en')
-        );
-        $result = M('field')->where($arr2)->select();
-       if($result){
-            $data = array('status'=>2);
-            $this->ajaxReturn($data,'json');
-        }else{*/
-        // 判断是修改还是添加操作
-            if(I('id'))
-            {     
-                //判断有无默认值
-                if($arr['default']==""){
-                    unset($arr['default']);
-                    $arr['id']=I('id');
-                    $result =M('field')->save($arr);
-                }else{
-                    $arr['id']=I('id');
-                    $result =M('field')->save($arr);
-                }
-            }else{     
-                //判断有无默认值
-                if($arr['default']==""){
-                    unset($arr['default']);
-                    $result =M('field')->add($arr);
-                }else{
-                    $result =M('field')->add($arr);
-                }
+       // 判断是修改还是添加操作
+        if(I('id'))
+        {     
+            //判断有无默认值
+            if($arr['default']==""){
+                unset($arr['default']);
+                $arr['id']=I('id');
+                $result =M('field')->save($arr);
+            }else{
+                $arr['id']=I('id');
+                $result =M('field')->save($arr);
             }
-
-       // }
+        }else{     
+            //判断有无默认值
+            if($arr['default']==""){
+                unset($arr['default']);
+                $result =M('field')->add($arr);
+            }else{
+                $result =M('field')->add($arr);
+            }
+        }
         if($result){
             $data = array('status'=>1);
         }else{

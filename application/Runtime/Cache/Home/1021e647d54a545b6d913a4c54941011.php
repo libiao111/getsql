@@ -45,7 +45,7 @@
                         <input type="text" placeholder="输入表名" id="search" name="key">
                         <button class="uk-button search"><i class="uk-icon-search"></i></button>
                         <a class="uk-button uk-button-primary sky" data-uk-modal="{target:'#add_table'}"><i class="uk-icon-plus"></i> 添加表</a>
-                        <a class="uk-button uk-button-success chu" href="<?php echo U('tuichu');?>">退出登录</a>
+                        <!-- <a class="uk-button uk-button-success sky1" data-uk-modal="{target:'#add_column'}"><i class="uk-icon-plus"></i> 添字段</a> -->
                     </fieldset>
                 </form>
             </div>
@@ -313,6 +313,7 @@
             document.body.removeChild(aux);
             alert('已复制到剪贴板')
         }
+        
         $(function () {
             $('.m-main>button').click(function () {
                 "use strict";

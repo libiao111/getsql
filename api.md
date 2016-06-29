@@ -200,7 +200,6 @@
 	array(	
 		id			=>value	(字段id),
 		field_en 	=>value (英文名称),
-	 	apply_id	=>value (应用类型),
 	 	leng		=>value (长度/值),
 	 	default		=>value	(默认值),
 	 	addself		=>value (是否自增),
