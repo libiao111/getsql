@@ -319,71 +319,38 @@
 
     <script type="text/javascript">
         $(document).ready(function () {
-            "use strict";
-            let objTable = $('.tables-box');
-            objTable.find('input[type="checkbox"]').click(function () {
-                let _this = $(this),
-                    obj = _this.parents('div.tables-box');
-                addDiv(obj);
-            });
-            function addDiv(obj) {
-                /* 选择选中多选框 */
-                let vals = obj.find('input[name="zd"]:checked'),
-                    tableName = obj.find('mark').attr('name');
-                /* 删除已插入的列表 */
-                $('#join-table-list').find('h4[data-name="' + tableName + '"]').parent('div.clone-box').remove();
-                /* 加入选中表(字段) */
-                if (vals.length) {
-                    let htm = $('#clone .clone-box').clone(),
-                        tit = obj.find('mark').text();
-                    htm.find('h4').html('<i class="uk-icon-caret-right"></i> ' + tit);
-                    htm.find('h4').attr('data-name', tableName);
-                    for (let i = 0; i < vals.length; i++) {
-                        let tr = vals.eq(i).parents('tr'),
-                            en = tr.find('td').eq(1).text(),
-                            zh = tr.find('td').eq(8).text();
-                        htm.find('div.uk-accordion-content').append('<p>' + (i + 1) + '. ' + en + '-' + zh + '</p>');
-                    };
-                    $('#join-table-list').prepend(htm);
-                    /* 绑定事件 */
-                    htm.find('h4').click(function () {
-                        let _this = $(this);
-                        _this.next('div').slideToggle();
-                    });
-                }
-            }
-            // var objTable = $('.tables-box');
-            // objTable.find('input[type="checkbox"]').click(function () {
-            //     var _this = $(this);
-            //     var obj = _this.parents('div.tables-box');
-            //     addDiv(obj);
-            // });
-            // function addDiv(obj) {
-            //     /* 选择选中多选框 */
-            //     var vals = obj.find('input[name="zd"]:checked');
-            //     var tableName = obj.find('mark').attr('name');
-            //     /* 删除已插入的列表 */
-            //     $('#join-table-list').find('h4[data-name="' + tableName + '"]').parent('div.clone-box').remove();
-            //     /* 加入选中表(字段) */
-            //     if (vals.length) {
-            //         var htm = $('#clone .clone-box').clone();
-            //         var tit = obj.find('mark').text();
-            //         htm.find('h4').html('<i class="uk-icon-caret-right"></i> ' + tit);
-            //         htm.find('h4').attr('data-name', tableName);
-            //         for (var i = 0; i < vals.length; i++) {
-            //             var tr = vals.eq(i).parents('tr');
-            //             var en = tr.find('td').eq(1).text();
-            //             var zh = tr.find('td').eq(8).text();
-            //             htm.find('div.uk-accordion-content').append('<p>' + (i + 1) + '. ' + en + '-' + zh + '</p>');
-            //         };
-            //         $('#join-table-list').prepend(htm);
-            //         /* 绑定事件 */
-            //         htm.find('h4').click(function () {
-            //             var _this = $(this);
-            //             _this.next('div').slideToggle();
-            //         });
-            //     }
-            // }
+             var objTable = $('.tables-box');
+             objTable.find('input[type="checkbox"]').click(function () {
+                 var _this = $(this);
+                 var obj = _this.parents('div.tables-box');
+                 addDiv(obj);
+             });
+             function addDiv(obj) {
+                 /* 选择选中多选框 */
+                 var vals = obj.find('input[name="zd"]:checked');
+                 var tableName = obj.find('mark').attr('name');
+                 /* 删除已插入的列表 */
+                 $('#join-table-list').find('h4[data-name="' + tableName + '"]').parent('div.clone-box').remove();
+                 /* 加入选中表(字段) */
+                 if (vals.length) {
+                     var htm = $('#clone .clone-box').clone();
+                     var tit = obj.find('mark').text();
+                     htm.find('h4').html('<i class="uk-icon-caret-right"></i> ' + tit);
+                     htm.find('h4').attr('data-name', tableName);
+                     for (var i = 0; i < vals.length; i++) {
+                         var tr = vals.eq(i).parents('tr');
+                         var en = tr.find('td').eq(1).text();
+                         var zh = tr.find('td').eq(8).text();
+                         htm.find('div.uk-accordion-content').append('<p>' + (i + 1) + '. ' + en + '-' + zh + '</p>');
+                     };
+                     $('#join-table-list').prepend(htm);
+                     /* 绑定事件 */
+                     htm.find('h4').click(function () {
+                         var _this = $(this);
+                         _this.next('div').slideToggle();
+                     });
+                 }
+             }
         });
 
 
@@ -505,12 +472,14 @@
                             $('.modal1>h2').text('fail');
                             setTimeout(function () {
                                 $('.modal1').hide();
+                                location.reload();
                             }, 1000);
                         } else {
                             $('.modal1').show();
                             $('.modal1>h2').text('success');
                             setTimeout(function () {
                                 $('.modal1').hide();
+                                location.reload();
                             }, 1000);
                         }
                     });
@@ -579,6 +548,7 @@
                         $('.modal1>h2').text('fail');
                         setTimeout(function () {
                             $('.modal1').hide();
+                            location.reload();
                         }, 1000);
                         window.location.reload(true);
                     } else if (data.status == 1) {
@@ -586,12 +556,14 @@
                         $('.modal1>h2').text('success');
                         setTimeout(function () {
                             $('.modal1').hide();
+                            location.reload();
                         }, 1000);
                     } else if (data.status == 2) {
                         $('.modal1').show();
                         $('.modal1>h2').text('exist');
                         setTimeout(function () {
                             $('.modal1').hide();
+                            location.reload();
                         }, 1000);
                     }
                 });
@@ -641,18 +613,21 @@
                             $('.modal1>h2').text('fail');
                             setTimeout(function () {
                                 $('.modal1').hide();
+                                location.reload();
                             }, 1000);
                     } else if (data.status == 1) {
                         $('.modal1').show();
                             $('.modal1>h2').text('success');
                             setTimeout(function () {
                                 $('.modal1').hide();
+                                location.reload();
                             }, 1000);
                     } else if (data.status == 2) {
                         $('.modal1').show();
                             $('.modal1>h2').text('exist');
                             setTimeout(function () {
                                 $('.modal1').hide();
+                                location.reload();
                             }, 1000);
                     }
                 });
