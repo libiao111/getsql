@@ -1,4 +1,4 @@
-.modal {
+.modal,.modal1{
     display: none;
     position: fixed;
     width: 100%;
@@ -7,7 +7,8 @@
     z-index: 100
 }
 
-.modal>.back {
+.modal>.back ,
+.modal1>.back{
     z-index: 150;
     width: 100%;
     height: 100%;
@@ -17,7 +18,7 @@
     float: right;
     right: 10px
 } 
-.modal>.m-main {
+.modal>.m-main{
     background-color: white;
     width: 500px;
     height: 80%;
@@ -30,10 +31,34 @@
     z-index: 200;
     border-radius: 10px;
 }
+.modal1>.m-main{
+    background-color: white;
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 200;
+    border-radius: 10px;
+}
 
-.modal>.m-main>h2 {
+.modal>.m-main>h2{
     text-align: center;
     margin: 25px 0
+}
+.modal1>.m-main>h2{
+    height: 30px;
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
 }
 
 .modal>.m-main>p {
