@@ -406,10 +406,7 @@ class IndexController extends Controller
                 /* 默认值 */
                 if($v['default'])
                 {
-                    if($v['default']=='current_timestamp'){
-                         $result .= ' default';
-                    }
-                    $result .= ' '.$v['default'];
+                   $result .= ' default '.$v['default'];
                 } else {
                     /* 是否为空 */
                     if($v['null'])

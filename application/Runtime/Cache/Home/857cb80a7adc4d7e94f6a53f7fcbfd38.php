@@ -110,7 +110,7 @@
                                             </td>
                                             <td>
                                                 <?php if($zd['default']): echo ($zd["default"]); ?>
-                                                    <?php else: ?>null<?php endif; ?>
+                                                    <?php elseif($zd['default'] == '0'): ?>0<?php else: ?>null<?php endif; ?>
                                             </td>
                                             <td>
                                                 <?php if($zd['null']): ?>null
