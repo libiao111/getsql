@@ -114,7 +114,7 @@
                                             </td>
                                             <td>
                                                 <if condition="$zd['default']">{$zd.default}
-                                                    <else/>null</if>
+                                                    <elseif condition="$zd['default'] eq '0'"/>0<else/>null</if>
                                             </td>
                                             <td>
                                                 <if condition="$zd['null']">null
